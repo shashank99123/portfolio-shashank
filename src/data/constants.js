@@ -206,7 +206,7 @@ export const education = [
     img: "https://res.cloudinary.com/dz3enozkl/image/upload/v1737981425/atria_institute_of_technology_logo_uhdes1.jpg",
     date: "Dec 2023 - Aug 2025",
     grade: "8.21 CGPA",
-    desc: "I am currently pursuing a Master of Computer Applications  atAtria Institute Of Technology, Benguluru. I have completed 2 semesters and have a CGPA of 8.21.",
+    desc: "I completed my Master of Computer Applications  at Atria Institute Of Technology, Benguluru.",
     degree: "Master Of Computer Applications",
   },
   {
