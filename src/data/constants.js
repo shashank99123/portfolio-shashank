@@ -191,7 +191,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "",
+    img: "https://res.cloudinary.com/dlikwjohh/image/upload/v1768908754/images_6_corlgj.jpg",
     role: "Presentation Designer",
     company: "SmartQ",
     date: "Aug 2025 - Feb 2026",
@@ -223,7 +223,7 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "GateLessParking",
+    title: "Gateless Parking",
     date: "Jan 2025 - Mar 2025",
     description: "Developed Find My Parking, a smart system for advance slot booking at malls and theaters with real-time availability and secure payments.Integrated number plate recognition using Python and OpenCV, with a Next.js frontend, MongoDB backend, and ML-based vehicle detection",
     tags: [],
