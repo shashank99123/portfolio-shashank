@@ -194,7 +194,7 @@ export const experiences = [
     img: "",
     role: "Presentation Designer",
     company: "SmartQ",
-    date: "Aug 2025 - Fed 2026",
+    date: "Aug 2025 - Feb 2026",
     desc: "Got experience in designing of creatives, layouts and ui ux research",
     skills: ["Material UI","Adobe Illustrator", "Figma","UI UX Research"],
   },
