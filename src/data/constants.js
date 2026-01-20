@@ -1,11 +1,11 @@
 export const Bio = {
   name: "D SHASHANK",
-  roles: ["Frontend Developer", "Data Analyst", "UI/UX Designer"],
+  roles: ["Frontend Developer", "Data Analyst", "UI/UX Designer", "Product Designer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/shashank-virat",
+  github: "https://github.com/shashank99123",
   resume:
-    "https://drive.google.com/file/d/1TladmJpcdboeghmL2g-_7oOdw0xK1WNS/view?usp=sharing",
+    "https://drive.google.com/file/d/1qSO5w1Bqp65w6QriDNkiit5-TSGN6d6e/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/d-shashank-0141b9264/",
 
   insta: "https://www.instagram.com/shashank__virat?igsh=d3ZydWsyNXoyZnB4",
