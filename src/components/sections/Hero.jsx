@@ -30,6 +30,7 @@ const HeroContainer = styled.div`
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
+
 const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
@@ -42,9 +43,11 @@ const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
+
 const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -54,17 +57,17 @@ const HeroLeftContainer = styled.div`
     align-items: center;
   }
 `;
+
 const HeroRightContainer = styled.div`
   width: 100%;
   order: 2;
   display: flex;
   justify-content: end;
+
   @media (max-width: 960px) {
     order: 1;
-    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-contents: center;
     margin-bottom: 80px;
   }
 
@@ -81,9 +84,6 @@ const Title = styled.div`
 
   @media (max-width: 960px) {
     text-align: center;
-  }
-
-  @media (max-width: 960px) {
     font-size: 40px;
     line-height: 48px;
     margin-bottom: 8px;
@@ -100,9 +100,6 @@ const TextLoop = styled.div`
 
   @media (max-width: 960px) {
     text-align: center;
-  }
-
-  @media (max-width: 960px) {
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
@@ -122,17 +119,12 @@ const SubTitle = styled.div`
 
   @media (max-width: 960px) {
     text-align: center;
-  }
-
-  @media (max-width: 960px) {
     font-size: 16px;
-    line-height: 32px;
   }
 `;
 
 const ResumeButton = styled.a`
   -webkit-appearance: button;
-  -moz-appearance: button;
   appearance: button;
   text-decoration: none;
 
@@ -141,40 +133,40 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
   );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+
+  box-shadow: 20px 20px 60px #1f2634;
   border-radius: 50px;
   font-weight: 600;
   font-size: 20px;
+  color: white;
 
-     &:hover {
-        transform: scale(1.05);
+  &:hover {
+    transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
+`;
+
+/* ✅ NEW: Button group */
+const ButtonGroup = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  align-items: flex-start;
+
+  @media (max-width: 960px) {
+    align-items: center;
+  }
 `;
 
 const Img = styled.img`
@@ -193,25 +185,15 @@ const Img = styled.img`
 
 const HeroBg = styled.div`
   position: absolute;
-  display: flex;
-  justify-content: end;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   max-width: 1360px;
   overflow: hidden;
-  padding: 0 30px;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
 
   @media (max-width: 960px) {
-    justify-content: center;
-    padding: 0 0px;
+    padding: 0;
   }
 `;
 
@@ -249,14 +231,22 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
-              </ResumeButton>
+              {/* ✅ BUTTONS */}
+              <ButtonGroup>
+                <ResumeButton href={Bio.resume} target="_blank">
+                  Check Resume
+                </ResumeButton>
+
+                <ResumeButton href="https://www.behance.net/shashankkumar72">
+                  See My Works
+                </ResumeButton>
+              </ButtonGroup>
             </HeroLeftContainer>
+
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Profile" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
