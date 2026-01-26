@@ -248,4 +248,15 @@ export const projects = [
     github: "https://github.com/shashank99123/parking",
     webapp: "https://parking-omega-five.vercel.app/",
   },
+    {
+    id: 11,
+    title: "DhariSpot - Smart Parking Solution",
+    date: "",
+    description: "Designed an end-to-end mobile parking experience covering discovery, booking, payments, and post-booking management using user flows wireframes, and high-fidelity UI in Figma",
+    tags: [],
+    category: "android app",
+    github: "https://www.behance.net/shashankkumar72",
+    webapp: "https://www.figma.com/proto/PQxtO1I3ndLD0P7e6INykE/Dharispot?page-id=0%3A1&node-id=1001-70&viewport=-8991%2C-5370%2C1.43&t=TaGvsFk6XSMxda6V-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1001%3A66&show-proto-sidebar=1",
+  },
+  
 ];
