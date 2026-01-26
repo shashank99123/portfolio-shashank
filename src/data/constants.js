@@ -141,6 +141,21 @@ export const skills = [
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
       },
+      {
+        name: "Canva",
+        image:
+          "",
+      },
+      {
+        name: "Framer",
+        image:
+          "",
+      },
+      {
+        name: "Sketch",
+        image:
+          "",
+      },
     ],
   },
 ];
