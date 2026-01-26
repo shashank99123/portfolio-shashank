@@ -6,6 +6,8 @@ export const Bio = {
   github: "https://github.com/shashank99123",
   resume:
     "https://drive.google.com/file/d/1qSO5w1Bqp65w6QriDNkiit5-TSGN6d6e/view?usp=drivesdk",
+    behance:
+  https:"//www.behance.net/shashankkumar72",
   linkedin: "https://www.linkedin.com/in/d-shashank-0141b9264/",
 
   insta: "https://www.instagram.com/shashank__virat?igsh=d3ZydWsyNXoyZnB4",
