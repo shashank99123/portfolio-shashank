@@ -5,7 +5,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/shashank99123",
   resume:
-    "https://drive.google.com/file/d/1qSO5w1Bqp65w6QriDNkiit5-TSGN6d6e/view?usp=drivesdk",
+    "https://drive.google.com/file/d/1AC5wkQDg5Psg0AIADWfOXKXNuelfiAXx/view?usp=drivesdk",
     behance:
   "https://www.behance.net/shashankkumar72",
   linkedin: "https://www.linkedin.com/in/d-shashank-0141b9264/",
